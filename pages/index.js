@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { capabilities } from "../content/capabiliity";
 import { experiences } from "../content/experience";
 
@@ -5,6 +6,9 @@ export default function Home() {
 
   return (
     <div>
+      <Head>
+        <title>장한솔</title>
+      </Head>
       <section>
         <h1>장한솔</h1>
         <div>
