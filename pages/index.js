@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { capabilities } from "../content/capabiliity";
-import { experiences } from "../content/experience";
+import { naverCloudExperiences, woowaBrothersExperiences } from "../content/experience";
 
 export default function Home() {
 
@@ -29,13 +29,41 @@ export default function Home() {
             <h3>NAVER Cloud</h3>
             <span>Backend Developer</span>
             <br/>
-            <span>2019.11 ~ 현재</span>
+            <span>2019.11 ~ 2022.05</span>
           </div>
           <div>
             {
               <ul>
                 {
-                  experiences.map(experience =>
+                  naverCloudExperiences.map(experience =>
+                    <li key={experience.id}>
+                      <h4>{experience.title}</h4>
+                      <ul>
+                        {
+                          experience.contents.map(content =>
+                            <li key={content.id}>
+                              {content.content}
+                            </li>
+                          )
+                        }
+                      </ul>
+                    </li>)
+                }
+              </ul>
+            }
+          </div>
+
+          <div>
+            <h3>우아한형제들</h3>
+            <span>Backend Developer</span>
+            <br/>
+            <span>2022.05 ~ 현재</span>
+          </div>
+          <div>
+            {
+              <ul>
+                {
+                  woowaBrothersExperiences.map(experience =>
                     <li key={experience.id}>
                       <h4>{experience.title}</h4>
                       <ul>

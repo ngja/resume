@@ -1,4 +1,4 @@
-export const experiences = [
+export const naverCloudExperiences = [
   {
     id: 0,
     title: "네이버 클라우드 플랫폼의 서버 생성 부터 삭제 까지 모든 과정을 개발 하고 서버를 기반으로 한 여러 서비스들을 개발하고 있습니다.",
@@ -56,4 +56,8 @@ export const experiences = [
 
     ],
   },
+]
+
+export const woowaBrothersExperiences = [
+  
 ]
