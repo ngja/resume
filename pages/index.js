@@ -102,7 +102,7 @@ export default function Home() {
 
       <footer>
         <div>
-          <a href="https://github.com/pinus-densiflora">GitHub</a>
+          <a href="https://github.com/ngja">GitHub</a>
         </div>
       </footer>
     </div>
