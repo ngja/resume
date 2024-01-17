@@ -59,5 +59,40 @@ export const naverCloudExperiences = [
 ]
 
 export const woowaBrothersExperiences = [
-  
+  {
+    id: 0,
+    title: "우아한형제들의 SCM 서비스를 개발하고 관리합니다.",
+    contents: [
+      {
+        id: 0,
+        content: "변경 이력 기능을 설계하고 개발했습니다.",
+      },
+      {
+        id: 1,
+        content: "가격을 변경하고 예약하는 기능을 설계하고 권한에 따른 승인 절차를 따르도록 개발과 운영을 하고있습니다."
+      },
+      {
+        id: 2,
+        content: "특정 서비스에 의존성이 있던 DB를 신규 독립 DB로 분리하는 작업을 리딩했습니다."
+      }
+    ]
+  },
+  {
+    id: 2,
+    title: "물류 시스템에 필요한 여러 도구들을 만듭니다.",
+    contents: [
+      {
+        id: 0,
+        content: "모니터링 알람을 추가하고 시스템 관리용 대시보드를 구축합니다."
+      },
+      {
+        id: 1,
+        content: "여러 시스템 간의 대사를 진행하는 플랫폼을 개발, 관리합니다."
+      },
+      {
+        id: 2,
+        content: "마스터 데이터 관리 시스템을 개발합니다."
+      }
+    ]
+  }
 ]
