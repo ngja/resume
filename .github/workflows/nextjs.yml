@@ -9,6 +9,11 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Set Git email, name
+        run: |
+          git config --global user.email "deploy@github.com"
+          git config --global user.name "hansol"
+
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
